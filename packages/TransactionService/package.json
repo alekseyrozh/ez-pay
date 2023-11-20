@@ -1,0 +1,19 @@
+{
+  "name": "@ez-pay/transaction-service",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "sst bind vitest",
+    "typecheck": "tsc -noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "sst": "^2.36.1",
+    "vitest": "^0.34.6"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.451.0",
+    "electrodb": "^2.11.0",
+    "zod": "^3.22.4"
+  }
+}

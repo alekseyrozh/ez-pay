@@ -1,0 +1,18 @@
+{
+  "name": "@ez-pay/notification-service",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "sst bind vitest",
+    "typecheck": "tsc -noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "sst": "^2.36.1",
+    "vitest": "^0.34.6"
+  },
+  "dependencies": {
+    "@aws-sdk/client-sns": "^3.451.0",
+    "zod": "^3.22.4"
+  }
+}

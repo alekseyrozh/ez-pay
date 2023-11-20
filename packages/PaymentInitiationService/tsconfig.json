@@ -1,0 +1,10 @@
+{
+  "extends": "@tsconfig/node18/tsconfig.json",
+  "compilerOptions": {
+    "module": "esnext",
+    "moduleResolution": "node",
+    "paths": {
+      "@ez-pay/event-bus": ["../EventBus/src/index.ts"]
+    },
+  },
+}
