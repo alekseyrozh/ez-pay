@@ -1,6 +1,9 @@
 # EZ Pay
 Example payment service built using SST
 
+<img width="1628" alt="Screenshot 2023-11-20 at 21 54 00" src="https://github.com/alekseyrozh/ez-pay/assets/10654710/d261dfdb-a60f-4654-a7a3-20e6366ef732">
+
+
 # Pre-requisites
 * pnpm (or npm) - https://pnpm.io/installation
 * npx - https://www.npmjs.com/package/npx
@@ -35,3 +38,7 @@ Example payment service built using SST
 * Lambda functions in this app are configured to be automatically traced by lumigo
 * Wait for 15-20 minutes are connecting lumigo
 * See traces and logs and service maps in lumigo for this application
+
+
+<img width="1631" alt="Screenshot 2023-11-20 at 21 49 16" src="https://github.com/alekseyrozh/ez-pay/assets/10654710/60aa7c8d-7f16-4530-914f-a5775e3f9b8d">
+<img width="363" alt="Screenshot 2023-11-20 at 21 49 11" src="https://github.com/alekseyrozh/ez-pay/assets/10654710/00c76868-ee4d-40b9-a434-92eae62f0bce">
